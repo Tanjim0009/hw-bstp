@@ -1,0 +1,259 @@
+/* Common Css Start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small,
+span,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.section_info h2{
+  font-size: 46px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #02918b;
+}
+.section_info p{
+  font-size: 16px;
+  color: #7e8287;
+  margin: auto;
+  line-height: 41px;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+#myNav {
+    background-color: #02918c;
+  }
+  #myNav #menu ul li a {
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    padding: 21px 25px;
+    text-transform: uppercase;
+    transition: 0.7s;
+  }
+  #myNav #menu ul li:hover a {
+    background: #cfc91d;
+    color: #000;
+  }
+  /* //Nav Section Css End */
+  
+  /* Banner Section Css Start */
+  #banner{
+    background: url(../img/banner_bg.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+  }
+  #banner::after{
+    content: "";
+    inset: 0;
+    background-color: #000;
+    position: absolute;
+    opacity: 0.66;
+    z-index: -1;
+  }
+  #banner .banner_content{
+    color: #fff;
+  }
+  #banner .banner_content h3{
+    font-size: 30px;
+    font-weight: 400;
+  }
+  #banner .banner_content h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1050px 0;
+    animation:backcolor 5s linear infinite;
+  }
+  @keyframes backcolor{
+    100%{ background-position: 0 0;}
+  }
+  #banner .banner_content p{
+    font-size: 18px;
+  }
+  #banner .banner_content img{
+    margin: 50px auto;
+  }
+  #banner .banner_content a {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-transform: uppercase;
+    background: #cfc91d;
+    padding: 19px 42px;
+    display: inline-block;
+  }
+  /* //Banner Section Css End */
+
+  /* About Section Css Start */
+  #about{
+    padding: 99px 0;
+  }
+  #about .section_info{
+    padding: 0 0 70px 0;
+  }
+  #about .section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+  }
+  #about .about_item{
+    padding: 37px 55px;
+    border-right: 1px solid #d9dbdb;
+    margin-top: 80px;
+  }
+  #about .about_item:last-child{
+    border-right-color: transparent;
+  }
+  #about .about_item i{
+    font-size: 35px;
+    color: #01918b;
+  }
+  #about .about_item h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 32px 0;
+  }
+  #about .about_item p{
+    font-size: 11px;
+    color: #7e8287;
+  }
+  /* //About Section Css End */
+
+  /* Service Section Css Start */
+  #service{
+    background-image: url(../img/service_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 99px 0;
+  }
+  #service .service_item{
+    padding-right: 100px;
+    margin-top: 55px;
+  }
+  #service .service_item i{
+    font-size: 35px;
+    color: #01918b;
+  }
+  #service .service_item h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 20px 0;
+  }
+  #service .service_item p{
+    font-size: 11px;
+    color: #7e8287;
+  }
+  /* //Service Section Css End */
+
+  /* My Work Section Css Start */
+  #my_work .section_info{
+    margin: 110px 0 78px;
+  }
+  #my_work .my_work_item img{
+    display: block;
+    width: 100%;
+  }
+  #my_work .my_work_item{
+    position: relative;
+  }
+  #my_work .my_work_item .overlay{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 28px;
+    right: 28px;
+    background-color: rgba(2,145,139,0.85);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+  }
+
+  #my_work .my_work_item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #my_work .my_work_item .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+
+  #my_work .my_work_item .overlay p{
+    font-size: 12px;
+  }
+  /* //My Work Section Css End */
+
+  /* Contact Section Css Start */
+  #contact .section_info{
+    margin: 110px 0;
+  }
+  #contact .contact_form{
+    background: #0a0a0b;
+    padding: 68px 0;
+  }
+  #contact .contact_form input, 
+  #contact .contact_form textarea{
+    text-align: center;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 18px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #898989;
+    margin-bottom: 51px;
+  }
+  #contact .contact_form textarea{
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    height: 60px;
+  }
+  #contact .contact_form button{
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-transform: uppercase;
+    background: #cfc91d;
+    padding: 19px 64px;
+    cursor: pointer;
+    border: none;
+  }
+  /* //Contact Section Css End */
+
+  footer{
+    font-size: 16px;
+    color: #7e8287;
+    background-color: #000;
+    padding: 25px 0;
+  }
