@@ -13,42 +13,42 @@
     }
     /* css benner large divice end */
     /* css about large device start */
-    #myAbout {
+    #about{
         padding: 66px 0;
     }
     .section_info p {
         padding-top: 22px;
     }
-    #myAbout .about_item p {
+    #about .about_item p {
         padding: 0px 45px;
     }
-    #myAbout .about_item i {
+    #about .about_item i {
         padding: 23px 0;
     }
     /* css about large device end */
     /* css myService large device start */
-    #myService {
+    #service {
         padding: 65px 0;
     }
     .section_info p {
         padding-top: 18px;
     }
-    #myService .service_item p {
+    #service .service_item p {
         padding: 0px 70px 0 0;
     }
-    #myService i {
+    #service i {
         padding: 26px 0;
     }
 }
     /* css myService large device end */
     /* css myWork large device start */
-    #myWork {
+    #work {
         padding: 70px 0 0 0;
     }
     .section_info p {
         padding-top: 12px;
     }
-    #myWork .myWork_item .overley {
+    #work .myWork_item .overley {
         padding: 0 12px;
     }
     /* css myWork large device end */
@@ -89,69 +89,69 @@
     }
     /* css benner medium device end */
     /* css about medium device start */
-    #myAbout {
+    #About {
         padding-top: 45px;
     }
     .section_info h2 {
         font-size: 36px;
     }
-    #myAbout .section_info p {
+    #about .section_info p {
         padding-top: 8px;
  
     }
     .section_info p {
         font-size: 13px;
     }
-    #myAbout .about_item:nth-child(2n){
+    #about .about_item:nth-child(2n){
         border-right-color:transparent;
     }
-    #myAbout .about_item i {
+    #about .about_item i {
         padding: 14px 0;
     }
-    #myAbout .about_item i {
+    #about .about_item i {
         font-size: 22px;
     }
-    #myAbout .about_item {
+    #about .about_item {
         margin-top: 45px;
     }
     /* css about medium device end  */
     /* css myService medium device start  */
-    #myService .service_item p {
-        font-size: 11px;
+    #service .service_item p {
+        font-size: 11s
     }
-    #myService {
+    #service {
         padding: 45px 0;
         background: #F0F0E8;
     }
-    #myService .section_info p {
+    #service .section_info p {
         padding-top: 18px;
         line-height: 25px;
     }
-    #myService .service_item p {
+    #service .service_item p {
         padding: 0;
     }
-    #myService i {
+    #service i {
         padding: 18px 0;
     }
-    #myService i {
+    #service i {
         font-size: 23px;
     }
-    #myWork {
+    #Work {
         padding: 40px 0 0 0;
     }
-    #myWork .section_info h2 {
+    #Work .section_info h2 {
         font-size: 31px;
     }
-    #myWork .section_info p {
+    #Work .section_info p {
         padding-top: 2px;
     }
-    #myWork .myWork_item .overley p {
+    #Work .myWork_item .overley p {
         font-size: 10px;
     }
-    #myWork .myWork_item .overley h4 {
+    #Work .myWork_item .overley h4 {
         font-size: 14px;
-    }
-    #myWork .item {
+    } 
+    #Work .item {
         padding-top: 43px;
     }
     #contact .section_info {
@@ -198,75 +198,75 @@
     }
     /* css benner small device end */
     /* css about small device start */
-    #myAbout {
+    #about {
         padding-top: 45px;
     }
     .section_info h2 {
         font-size: 36px;
     }
-    #myAbout .section_info p {
+    #about .section_info p {
         padding-top: 8px;
  
     }
     .section_info p {
         font-size: 13px;
     }
-    #myAbout .about_item:nth-child(2n){
+    #about .about_item:nth-child(2n){
         border-right-color:transparent;
     }
     #myAbout .about_item i {
         padding: 14px 0;
     }
-    #myAbout .about_item i {
+    #about .about_item i {
         font-size: 22px;
     }
-    #myAbout .about_item {
+    #about .about_item {
         margin-top: 45px;
     }
     /* css about small device end  */
     /* css myService small device start  */
-    #myService .service_item p {
+    #service .service_item p {
         font-size: 11px;
     }
-    #myService {
+    #service {
         padding: 45px 0;
         background: #F0F0E8;
     }
-    #myService .section_info p {
+    #service .section_info p {
         padding-top: 18px;
         line-height: 25px;
     }
-    #myService .service_item p {
+    service .service_item p {
         padding: 0;
     }
-    #myService i {
+    #service i {
         padding: 18px 0;
     }
-    #myService i {
+    #service i {
         font-size: 23px;
     }
-    #myWork {
+    #Work {
         padding: 40px 0 0 0;
     }
-    #myWork .section_info h2 {
+    #Work .section_info h2 {
         font-size: 31px;
     }
-    #myWork .section_info p {
+    #Work .section_info p {
         padding-top: 2px;
     }
-    #myWork .myWork_item .overley {
+    #Work .myWork_item .overley {
         top: 6px;
         bottom: 6px;
         left: 10px;
         right: 10px;
     }
-    #myWork .myWork_item .overley p {
+    #Work .myWork_item .overley p {
         font-size: 10px;
     }
-    #myWork .myWork_item .overley h4 {
+    #Work .myWork_item .overley h4 {
         font-size: 13px;
     }
-    #myWork .item {
+    #Work .item {
         padding-top: 43px;
     }
     #contact .section_info {
