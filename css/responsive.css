@@ -1,0 +1,297 @@
+@media (min-width:992px) and (max-width:1199.98px) {
+    /* css benner large divice start */
+    #benner {
+        height: 595px;
+    }
+    #benner h1 {
+        font-size: 60px;
+        letter-spacing: 23px;
+       
+    }
+    #benner img {
+        margin: 40px auto;
+    }
+    /* css benner large divice end */
+    /* css about large device start */
+    #myAbout {
+        padding: 66px 0;
+    }
+    .section_info p {
+        padding-top: 22px;
+    }
+    #myAbout .about_item p {
+        padding: 0px 45px;
+    }
+    #myAbout .about_item i {
+        padding: 23px 0;
+    }
+    /* css about large device end */
+    /* css myService large device start */
+    #myService {
+        padding: 65px 0;
+    }
+    .section_info p {
+        padding-top: 18px;
+    }
+    #myService .service_item p {
+        padding: 0px 70px 0 0;
+    }
+    #myService i {
+        padding: 26px 0;
+    }
+}
+    /* css myService large device end */
+    /* css myWork large device start */
+    #myWork {
+        padding: 70px 0 0 0;
+    }
+    .section_info p {
+        padding-top: 12px;
+    }
+    #myWork .myWork_item .overley {
+        padding: 0 12px;
+    }
+    /* css myWork large device end */
+    /*  css contact large device start */
+    #contact .section_info {
+        padding: 70px 0;
+    }
+    .section_info p {
+        padding-top: 5px;
+    }
+    .contact_form button {
+        padding: 13px 34px;
+    }
+    /* css large device end */
+
+    /* css medium divice start */
+@media (min-width:768px) and (max-width:991.98px) {
+    /* css benner medium divice start */
+    #benner {
+        height: 555px;
+    }
+    #benner h1 {
+        font-size: 45px;
+        letter-spacing: 17px;
+    }
+    #benner h3 {
+        font-size: 24px;
+    }
+    #benner p {
+        font-size: 16px;
+    }
+    #benner img {
+        margin: 25px auto;
+    }
+    #benner .benner-content a {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+    /* css benner medium device end */
+    /* css about medium device start */
+    #myAbout {
+        padding-top: 45px;
+    }
+    .section_info h2 {
+        font-size: 36px;
+    }
+    #myAbout .section_info p {
+        padding-top: 8px;
+ 
+    }
+    .section_info p {
+        font-size: 13px;
+    }
+    #myAbout .about_item:nth-child(2n){
+        border-right-color:transparent;
+    }
+    #myAbout .about_item i {
+        padding: 14px 0;
+    }
+    #myAbout .about_item i {
+        font-size: 22px;
+    }
+    #myAbout .about_item {
+        margin-top: 45px;
+    }
+    /* css about medium device end  */
+    /* css myService medium device start  */
+    #myService .service_item p {
+        font-size: 11px;
+    }
+    #myService {
+        padding: 45px 0;
+        background: #F0F0E8;
+    }
+    #myService .section_info p {
+        padding-top: 18px;
+        line-height: 25px;
+    }
+    #myService .service_item p {
+        padding: 0;
+    }
+    #myService i {
+        padding: 18px 0;
+    }
+    #myService i {
+        font-size: 23px;
+    }
+    #myWork {
+        padding: 40px 0 0 0;
+    }
+    #myWork .section_info h2 {
+        font-size: 31px;
+    }
+    #myWork .section_info p {
+        padding-top: 2px;
+    }
+    #myWork .myWork_item .overley p {
+        font-size: 10px;
+    }
+    #myWork .myWork_item .overley h4 {
+        font-size: 14px;
+    }
+    #myWork .item {
+        padding-top: 43px;
+    }
+    #contact .section_info {
+        padding: 38px 0;
+    }
+    .section_info h2 {
+        font-size: 32px;
+    }
+    #contact .contact_form input, 
+    #contact .contact_form textarea {
+        padding: 39px 0;
+        font-size: 13px;
+    }
+    .contact_form button {
+        padding: 7px 25px;
+    }
+    .contact_form button {
+        font-size: 11px;
+    }
+    /* css myService medium device end */
+}
+/* css medium end */
+/* css small device start */
+@media (min-width:576px)  and (max-width:767.98px) {
+    #benner {
+        height: 415px;
+    }
+    #benner h1 {
+        font-size: 40px;
+        letter-spacing: 7px;
+    }
+    #benner h3 {
+        font-size: 20px;
+    }
+    #benner p {
+        font-size: 14px;
+    }
+    #benner img {
+        margin: 22px auto;
+    }
+    #benner .benner-content a {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+    /* css benner small device end */
+    /* css about small device start */
+    #myAbout {
+        padding-top: 45px;
+    }
+    .section_info h2 {
+        font-size: 36px;
+    }
+    #myAbout .section_info p {
+        padding-top: 8px;
+ 
+    }
+    .section_info p {
+        font-size: 13px;
+    }
+    #myAbout .about_item:nth-child(2n){
+        border-right-color:transparent;
+    }
+    #myAbout .about_item i {
+        padding: 14px 0;
+    }
+    #myAbout .about_item i {
+        font-size: 22px;
+    }
+    #myAbout .about_item {
+        margin-top: 45px;
+    }
+    /* css about small device end  */
+    /* css myService small device start  */
+    #myService .service_item p {
+        font-size: 11px;
+    }
+    #myService {
+        padding: 45px 0;
+        background: #F0F0E8;
+    }
+    #myService .section_info p {
+        padding-top: 18px;
+        line-height: 25px;
+    }
+    #myService .service_item p {
+        padding: 0;
+    }
+    #myService i {
+        padding: 18px 0;
+    }
+    #myService i {
+        font-size: 23px;
+    }
+    #myWork {
+        padding: 40px 0 0 0;
+    }
+    #myWork .section_info h2 {
+        font-size: 31px;
+    }
+    #myWork .section_info p {
+        padding-top: 2px;
+    }
+    #myWork .myWork_item .overley {
+        top: 6px;
+        bottom: 6px;
+        left: 10px;
+        right: 10px;
+    }
+    #myWork .myWork_item .overley p {
+        font-size: 10px;
+    }
+    #myWork .myWork_item .overley h4 {
+        font-size: 13px;
+    }
+    #myWork .item {
+        padding-top: 43px;
+    }
+    #contact .section_info {
+        padding: 38px 0;
+    }
+    .section_info h2 {
+        font-size: 32px;
+    }
+    #contact .contact_form input, 
+    #contact .contact_form textarea {
+        padding: 39px 0;
+        font-size: 13px;
+    }
+    .contact_form button {
+        padding: 7px 25px;
+    }
+    .contact_form button {
+        margin: 13px 0;
+    }
+    .contact_form button {
+        font-size: 11px;
+    }
+    footer {
+        padding: 11px 0;
+        font-size: 11px;
+    }
+}
+/* css small device end */
